@@ -1,0 +1,5 @@
+ln -sf /usr/share/zoneinfo/America/Phoenix /etc/localtime
+useradd -m -G wheel,input,lp,video,realtime,autologin,docker -s /bin/bash reynoldsjt
+passwd -d reynoldsjt
+visudo /etc/sudoers
+echo "*/* $(cpuid2cpuflags)" > /etc/portage/package.use/00cpu-flags
