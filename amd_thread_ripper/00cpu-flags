@@ -1,0 +1,76 @@
+# required by app-shells/fish-3.4.0::gentoo
+# required by fish (argument)
+>=dev-libs/libpcre2-10.40 pcre32
+# required by kde-plasma/plasma-meta-5.25.5::gentoo
+# required by plasma-meta (argument)
+>=kde-plasma/kwin-5.25.5 lock
+# required by kde-frameworks/plasma-5.96.0-r1::gentoo
+# required by kde-plasma/kdeplasma-addons-5.25.5::gentoo
+# required by kde-plasma/plasma-meta-5.25.5::gentoo
+# required by plasma-meta (argument)
+>=kde-frameworks/kconfig-5.96.0 qml
+# required by media-video/vlc-3.0.17.4-r2::gentoo
+# required by media-libs/phonon-vlc-0.11.3-r1::gentoo
+# required by media-libs/phonon-4.11.1-r2::gentoo[vlc]
+# required by kde-plasma/plasma-desktop-5.25.5-r1::gentoo
+# required by kde-plasma/plasma-meta-5.25.5::gentoo
+# required by plasma-meta (argument)
+>=sys-libs/zlib-1.2.12-r3 minizip
+# required by kde-plasma/sddm-kcm-5.25.5::gentoo
+# required by kde-plasma/plasma-meta-5.25.5::gentoo[sddm,display-manager]
+# required by plasma-meta (argument)
+>=kde-frameworks/kitemmodels-5.96.0 qml
+# required by kde-plasma/xdg-desktop-portal-kde-5.25.5::gentoo
+# required by kde-plasma/plasma-meta-5.25.5::gentoo[desktop-portal]
+# required by plasma-meta (argument)
+>=dev-qt/qtprintsupport-5.15.5-r1 cups
+# required by kde-frameworks/kfilemetadata-5.96.0::gentoo[pdf]
+# required by kde-frameworks/baloo-5.96.0::gentoo
+# required by kde-plasma/plasma-desktop-5.25.5-r1::gentoo[semantic-desktop]
+# required by kde-plasma/plasma-meta-5.25.5::gentoo
+# required by plasma-meta (argument)
+>=app-text/poppler-22.09.0 qt5
+# required by kde-plasma/plasma-workspace-5.25.5-r4::gentoo
+# required by virtual/notification-daemon-0::gentoo[kde]
+# required by x11-libs/libnotify-0.8.1::gentoo
+# required by media-video/vlc-3.0.17.4-r2::gentoo[libnotify]
+# required by media-libs/phonon-vlc-0.11.3-r1::gentoo
+# required by media-libs/phonon-4.11.1-r2::gentoo[vlc]
+# required by kde-plasma/plasma-desktop-5.25.5-r1::gentoo
+# required by kde-plasma/plasma-meta-5.25.5::gentoo
+# required by plasma-meta (argument)
+>=kde-frameworks/prison-5.96.0-r1 qml
+# required by kde-frameworks/qqc2-desktop-style-5.96.0-r1::gentoo
+# required by kde-plasma/plasma-desktop-5.25.5-r1::gentoo
+# required by kde-plasma/plasma-meta-5.25.5::gentoo
+# required by plasma-meta (argument)
+>=kde-frameworks/sonnet-5.96.0 qml
+# required by kde-plasma/kwin-5.25.5::gentoo
+# required by kde-plasma/plasma-desktop-5.25.5-r1::gentoo
+# required by kde-plasma/plasma-meta-5.25.5::gentoo
+# required by plasma-meta (argument)
+>=media-libs/mesa-22.1.7 wayland
+# required by net-print/cups-filters-1.28.15::gentoo[postscript]
+# required by net-print/cups-2.4.2-r5::gentoo
+# required by dev-qt/qtprintsupport-5.15.5-r1::gentoo[cups]
+# required by dev-qt/designer-5.15.5::gentoo
+# required by kde-plasma/kwin-5.25.5::gentoo
+# required by kde-plasma/plasma-desktop-5.25.5-r1::gentoo
+# required by kde-plasma/plasma-meta-5.25.5::gentoo
+# required by plasma-meta (argument)
+>=app-text/ghostscript-gpl-9.56.1-r3 cups
+# required by kde-misc/kdeconnect-22.04.3::gentoo
+# required by kde-misc/kdeconnect (argument)
+>=dev-qt/qtmultimedia-5.15.5-r1 qml
+# required by kde-apps/okular-22.04.3-r1::gentoo[pdf]
+# required by kde-apps/okular (argument)
+>=app-text/poppler-22.09.0 nss
+# required by www-client/falkon-22.04.3-r1::gentoo
+# required by kde-apps/kdecore-meta-22.04.3::gentoo[webengine]
+# required by kde-apps/kdecore-meta (argument)
+>=dev-qt/qtwebengine-5.15.5_p20220618 widgets
+# required by dev-qt/qtwebengine-5.15.5_p20220618::gentoo
+# required by www-client/falkon-22.04.3-r1::gentoo
+# required by kde-apps/kdecore-meta-22.04.3::gentoo[webengine]
+# required by kde-apps/kdecore-meta (argument)
+>=dev-qt/qtwebchannel-5.15.5 qml

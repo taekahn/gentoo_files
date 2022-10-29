@@ -1,0 +1,43 @@
+emerge -aND \
+app-portage/cpuid2cpuflags \
+cfg-update \
+dbus \
+dev-libs/libpcre2 \
+dev-util/xxdiff \
+efibootmgr \
+fish \
+kde-apps/ark \
+kde-apps/filelight \
+kde-apps/kate \
+kde-apps/kcalc \
+kde-apps/kdecore-meta \
+kde-apps/okular \
+kde-apps/okularkde-apps/spectacle \
+kde-apps/spectacle \
+kde-misc/kdeconnect \
+media-libs/mesa \
+meld \
+net-misc/dhcpcd \
+net-misc/netifrc \
+plasma-meta \
+sddm \
+sddm-kcm \
+snapbtr \
+doas\
+sys-apps/dbus \
+sys-apps/pci-utils \
+sys-auth/polkit \
+sys-devel/clang \
+sys-devel/gcc \
+sys-devel/gcc-config \
+sys-devel/gdb \
+sys-devel/libtool \
+sys-fs/btrfs-progs \
+sys-fs/udisks \
+sys-kernel/gentoo-sources \
+sys-kernel/linux-firmware \
+timeshift \
+ufed \
+xorg-drivers \
+xorg-server \
+xxdiff

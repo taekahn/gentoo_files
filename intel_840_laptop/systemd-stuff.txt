@@ -1,0 +1,5 @@
+systemctl preset-all --preset-mode=enable-only
+systemd-firstboot --prompt --setup-machine-id
+systemctl enable --now dhcpcd
+systemctl enable sddm.service
+systemctl start sddm.service
