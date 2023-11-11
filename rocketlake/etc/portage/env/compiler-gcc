@@ -1,0 +1,15 @@
+CC="gcc"
+CXX="g++"
+CPP="cpp"
+
+AR="${CHOST}-ar"
+NM="${CHOST}-nm"
+RANLIB="${CHOST}-ranlib"
+
+COMMON_FLAGS="-march=rocketlake -mtune=rocketlake -O2 -pipe"
+CFLAGS="${COMMON_FLAGS}"
+CXXFLAGS="${COMMON_FLAGS}"
+FCFLAGS="${COMMON_FLAGS}"
+FFLAGS="${COMMON_FLAGS}"
+MAKEOPTS="-j9 -l8"
+LDFLAGS="-Wl,--as-needed -Wl,--no-allow-shlib-undefined"

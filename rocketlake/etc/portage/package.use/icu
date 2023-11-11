@@ -1,0 +1,11 @@
+# required by dev-libs/libxml2-2.11.5::gentoo[icu]
+# required by sys-devel/clang-16.0.6::gentoo[xml]
+# required by dev-libs/libclc-16.0.6::gentoo
+# required by media-libs/mesa-23.1.6::gentoo[video_cards_intel,-opencl,vulkan]
+# required by virtual/opengl-7.0-r2::gentoo
+# required by media-libs/freeglut-3.4.0::gentoo
+# required by app-text/mupdf-1.22.0::gentoo[opengl]
+# required by net-print/cups-filters-1.28.17-r2::gentoo[pdf]
+# required by net-print/cups-2.4.7::gentoo
+# required by app-text/ghostscript-gpl-10.02.0::gentoo[cups]
+>=dev-libs/icu-73.2 abi_x86_32

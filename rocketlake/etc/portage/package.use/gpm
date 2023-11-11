@@ -1,0 +1,14 @@
+# required by sys-libs/ncurses-6.4_p20230401::gentoo[gpm]
+# required by www-client/w3m-0.5.3_p20230121::gentoo
+# required by virtual/w3m-1::gentoo
+# required by app-text/xmlto-0.0.28-r11::gentoo[text]
+# required by x11-misc/xdg-utils-1.1.3_p20210805-r1::gentoo
+# required by kde-frameworks/kf-env-5::gentoo
+# required by kde-frameworks/kwayland-5.110.0::gentoo
+# required by kde-plasma/kwayland-integration-5.27.8::gentoo
+# required by kde-frameworks/kwindowsystem-5.110.0::gentoo[wayland]
+# required by kde-plasma/polkit-kde-agent-5.27.8::gentoo
+# required by kde-frameworks/kauth-5.110.0::gentoo
+# required by kde-frameworks/kconfigwidgets-5.110.0::gentoo
+# required by kde-frameworks/kiconthemes-5.110.0::gentoo
+>=sys-libs/gpm-1.20.7-r5 abi_x86_32
