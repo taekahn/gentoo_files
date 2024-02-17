@@ -27,6 +27,19 @@ if test -d ~/.local/bin
     end
 end
 
+# Add depot_tools to PATH
+if test -d ~/Applications/depot_tools
+    if not contains -- ~/Applications/depot_tools $PATH
+        set -p PATH ~/Applications/depot_tools
+    end
+end
+
+if test -d ~/.arene/bin
+    if not contains -- ~/.arene/bin $PATH
+        set -p PATH ~/.arene/bin
+    end
+end
+
 
 ## Starship prompt
 if status --is-interactive
@@ -89,12 +102,12 @@ function copy
 end
 
 ## Useful aliases
-# Replace ls with eza
-alias ls='eza -al --color=always --group-directories-first --icons' # preferred listing
-alias la='eza -a --color=always --group-directories-first --icons'  # all files and dirs
-alias ll='eza -l --color=always --group-directories-first --icons'  # long format
-alias lt='eza -aT --color=always --group-directories-first --icons' # tree listing
-alias l.='eza -ald --color=always --group-directories-first --icons .*' # show only dotfiles
+# Replace ls with exa
+alias ls='exa -al --color=always --group-directories-first --icons' # preferred listing
+alias la='exa -a --color=always --group-directories-first --icons'  # all files and dirs
+alias ll='exa -l --color=always --group-directories-first --icons'  # long format
+alias lt='exa -aT --color=always --group-directories-first --icons' # tree listing
+alias l.='exa -ald --color=always --group-directories-first --icons .*' # show only dotfiles
 alias ip='ip -color'
 
 # Replace some more things with better alternatives
@@ -122,9 +135,9 @@ alias jctl="journalctl -p 3 -xb"
 alias rip="expac --timefmt='%Y-%m-%d %T' '%l\t%n %v' | sort | tail -200 | nl"
 
 
-## Run neofetch if session is interactive
+## Run fastfetch if session is interactive
 if status --is-interactive && type -q neofetch
    neofetch
 end
 
-starship init fish | source
+direnv hook fish | source
